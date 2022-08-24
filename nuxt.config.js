@@ -18,6 +18,13 @@ export default {
 	},
 
 	/*
+	 * CSS
+	 */
+	css: [
+		'@/assets/css/main.css',
+	],
+
+	/*
 	 * Plugins to load before mounting the App
 	 */
 	plugins: [],
@@ -27,6 +34,7 @@ export default {
 	 */
 	buildModules: [
 		// Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+		'@nuxt/postcss8',
 		'@nuxtjs/tailwindcss'
 	],
 
@@ -39,6 +47,12 @@ export default {
 	 * Build configuration
 	 */
 	build: {
+		postcss: {
+			plugins: {
+				tailwindcss: {},
+				autoprefixer: {},
+			},
+		},
 		/*
 		 * You can extend webpack config here
 		 */
