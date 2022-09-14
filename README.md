@@ -48,7 +48,7 @@ Run in dev mode: `npm run dev`
 
 ## Deadline
 
-You´ll have up to 7 consecutive days to work on the test. Please submit your test as a Github repository URL, along with instructions on how to set up and run your application (please edit the REAME.md file to add your setup instructions). Please make your repository private and add [Fez](https://github.com/felipesnts) and [Bill](https://github.com/billaddison) with view access to the private repository.
+You´ll have up to 7 consecutive days to work on the test. Please submit your test as a Github repository URL, along with instructions on how to set up and run your application (please edit the REAME.md file to add your setup instructions). Please make your repository private and add [Fez](https://github.com/felipesnts), [Pam](https://github.com/PamTurk), and [Bill](https://github.com/billaddison) with view access to the private repository.
 
 
 ## Submissions
